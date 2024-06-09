@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #E6EBF1;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    min-height:120v;
+    padding: 0%;
+    margin: 0%;
+    
+}
+.pag{
+    background-color:#E6EBF1;
+    width: 420px;
+    margin: 300px;
+    padding: 60px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 19px 10px #00000037;
+
+}
+h1{
+    margin: 20px 0px 30px;
+    text-align:center;
+}
+.inome{
+    padding: 3px;
+}
+
+#inome{
+    background-color: #E6EBF1;
+    padding: 15px 50px ;
+    border-radius: 15px;
+    border: none;
+    box-shadow: inset 0px 0px 4px 4px rgba(0, 0, 0, 0.103);
+}
+ .inome svg{
+    position: relative;
+    right: 100px;
+    bottom: 22px;
+    transform: translateY(-50%);
+}
+.inome input::placeholder{
+    position: absolute;
+    left: 18vh;
+    font-size: medium;
+    color: black;
+    font-weight: bolder;
+}
+#isen{
+    background-color: #E6EBF1;
+    padding: 15px 50px ;
+    border-radius: 15px;
+    border: none;
+    box-shadow: inset 0px 0px 4px 4px rgba(0, 0, 0, 0.103);
+}
+
+.isen input::placeholder{
+    position: absolute;
+    left: 18vh;
+    font-size: medium;
+    color: black;
+    font-weight: bolder;
+}
+.isen svg{
+    position: relative;
+    right: 100px;
+    bottom: 22px;
+    transform: translateY(-50%);
+}
+
+button{
+    margin: 22px;
+    padding: 15px 100px;
+    border-radius: 50px;
+    border: none;
+    background-color:#50B5D3;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.129);
+    font-weight: bolder;
+
+}
+button:hover{
+    background-color: #5797ac;
+    transition: .6s;
+}
+
+a{
+    text-decoration: none;
+    color:#5797ac;
+    font-weight: bolder;
+}
+
